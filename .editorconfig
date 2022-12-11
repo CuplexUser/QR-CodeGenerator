@@ -1,0 +1,13 @@
+
+[*]
+
+# Microsoft .NET properties
+csharp_style_var_for_built_in_types = false:suggestion
+
+# ReSharper properties
+resharper_csharp_max_line_length = 280
+resharper_csharp_use_indent_from_vs = false
+resharper_for_simple_types = use_var_when_evident
+resharper_indent_nested_foreach_stmt = true
+resharper_indent_nested_for_stmt = true
+resharper_indent_nested_while_stmt = true
