@@ -61,11 +61,30 @@ namespace QR_CodeGenerator.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to This application enables you to crate QR codes based on the text input provided. You can either copy the QR Code image to the clipboard or you can save it as an image file..
+        /// </summary>
+        internal static string AboutApplication {
+            get {
+                return ResourceManager.GetString("AboutApplication", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap gnome_mime_image_bmp_RealSR_JPEG_x4 {
             get {
                 object obj = ResourceManager.GetObject("gnome-mime-image-bmp_RealSR_JPEG_x4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Settings {
+            get {
+                object obj = ResourceManager.GetObject("Settings", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

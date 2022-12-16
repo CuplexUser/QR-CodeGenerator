@@ -1,5 +1,4 @@
 ﻿using QRCoder;
-using System.Reflection.Emit;
 
 namespace QR_CodeGenerator.Service
 {
